@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>先锋少年对话百年榜样人物</title>
 </head>
-<body style="display: flex; text-align: center;flex-direction: column;" background="https://cdn.jsdelivr.net/gh/sunnyFxx/sunnyFxx.github.io@master/100/red_bg.jpeg">
+<body style="display: flex; text-align: center;flex-direction: column;" background="red_bg.jpeg">
 	<div style="color: #F5A9BC;margin: auto;align-items: center;margin-top: 30px; margin-bottom: 20px; font-size: 30px; font-weight: bold;">先锋少年对话百年榜样人物</div>
 	<div style="width: auto;height: 300px;background: rgba(236,246,206,0.5); margin-top: 20px; display: flex; flex-direction: row; border:1px solid #BDBDBD; ">
 		<img src="https://cdn.jsdelivr.net/gh/sunnyFxx/sunnyFxx.github.io@master/100/jyl.jpeg" style="height: 280px; margin-top: 10px; margin-left: 10px">
@@ -15,7 +15,7 @@
 				<b>小明说:致敬榜样的力量！</b>
 				<b>小伟说:感动！我们会永远铭记！</b>
 			</div>
-			<button type="button" style="width: 200px;height: 30px;line-height: 30px; align-self: center; margin-bottom: 10px">我想对榜样说</button>
+			<button onclick="clickSay('焦裕禄')" type="button" style="width: 200px;height: 30px;line-height: 30px; align-self: center; margin-bottom: 10px">我想对榜样说</button>
 		</div>
 	</div>
 
@@ -28,7 +28,7 @@
 				<b>小明说:致敬榜样的力量！</b>
 				<b>小伟说:感动！我们会永远铭记！</b>
 			</div>
-			<button type="button" style="width: 200px;height: 30px;line-height: 30px; align-self: center; margin-bottom: 10px">我想对榜样说</button>
+			<button onclick="clickSay('瞿秋白')" type="button" style="width: 200px;height: 30px;line-height: 30px; align-self: center; margin-bottom: 10px">我想对榜样说</button>
 		</div>
 	</div>
 
@@ -41,9 +41,15 @@
 				<b>小明说:致敬榜样的力量！</b>
 				<b>小伟说:感动！我们会永远铭记！</b>
 			</div>
-			<button type="button" style="width: 200px;height: 30px;line-height: 30px; align-self: center; margin-bottom: 10px">我想对榜样说</button>
+			<button onclick="clickSay('刘胡兰')" type="button" style="width: 200px;height: 30px;line-height: 30px; align-self: center; margin-bottom: 10px">我想对榜样说</button>
 		</div>
 	</div>
 
 </body>
+<script type="text/javascript">
+	function clickSay(str) {
+		// body...
+		alert('(功能建设中)我想对榜样'+str+'说');
+	}
+</script>
 </html>
